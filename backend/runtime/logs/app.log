@@ -911,3 +911,238 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1424084667.794
     'REQUEST_TIME' => 1424084667
 ]
+2015-02-16 11:22:26 [192.168.1.104][-][-][warning][yii\gii\Module::checkAccess] Access to Gii is denied due to IP address restriction. The requested IP is 192.168.1.104
+2015-02-16 11:22:26 [192.168.1.104][-][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to access this page.' in /var/www/priemnaya/vendor/yiisoft/yii2-gii/Module.php:112
+Stack trace:
+#0 /var/www/priemnaya/vendor/yiisoft/yii2/base/Controller.php(139): yii\gii\Module->beforeAction(Object(yii\base\InlineAction))
+#1 /var/www/priemnaya/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#2 /var/www/priemnaya/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('gii', Array)
+#3 /var/www/priemnaya/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /var/www/priemnaya/backend/web/index.php(18): yii\base\Application->run()
+#5 {main}
+2015-02-16 11:22:26 [192.168.1.104][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.104
+    in /var/www/priemnaya/backend/views/layouts/main.php:68
+2015-02-16 11:22:26 [192.168.1.104][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f06884cdb0da7e9460d0ad26b868326937a0038547761e1ba9caf4971891ad9es:32:\"3ke7gsBdtnxPluMeE9uj3ir-ka-h3l-W\";'
+    'PHPSESSID' => '0ojs9q3cbtnl2jgct46ectvu42'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'admin.priemnaya.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,de;q=0.2,ro;q=0.2'
+    'HTTP_COOKIE' => '_csrf=f06884cdb0da7e9460d0ad26b868326937a0038547761e1ba9caf4971891ad9es%3A32%3A%223ke7gsBdtnxPluMeE9uj3ir-ka-h3l-W%22%3B; PHPSESSID=0ojs9q3cbtnl2jgct46ectvu42'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at admin.priemnaya.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'admin.priemnaya.com'
+    'SERVER_ADDR' => '192.168.1.102'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.104'
+    'DOCUMENT_ROOT' => '/var/www/priemnaya/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/priemnaya/backend/web/'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/priemnaya/backend/web/index.php'
+    'REMOTE_PORT' => '54072'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424085746.873
+    'REQUEST_TIME' => 1424085746
+]
+2015-02-16 11:22:28 [192.168.1.104][-][-][warning][yii\gii\Module::checkAccess] Access to Gii is denied due to IP address restriction. The requested IP is 192.168.1.104
+2015-02-16 11:22:28 [192.168.1.104][-][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to access this page.' in /var/www/priemnaya/vendor/yiisoft/yii2-gii/Module.php:112
+Stack trace:
+#0 /var/www/priemnaya/vendor/yiisoft/yii2/base/Controller.php(139): yii\gii\Module->beforeAction(Object(yii\base\InlineAction))
+#1 /var/www/priemnaya/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#2 /var/www/priemnaya/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('gii', Array)
+#3 /var/www/priemnaya/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /var/www/priemnaya/backend/web/index.php(18): yii\base\Application->run()
+#5 {main}
+2015-02-16 11:22:28 [192.168.1.104][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.104
+    in /var/www/priemnaya/backend/views/layouts/main.php:68
+2015-02-16 11:22:28 [192.168.1.104][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f06884cdb0da7e9460d0ad26b868326937a0038547761e1ba9caf4971891ad9es:32:\"3ke7gsBdtnxPluMeE9uj3ir-ka-h3l-W\";'
+    'PHPSESSID' => '0ojs9q3cbtnl2jgct46ectvu42'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'admin.priemnaya.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,de;q=0.2,ro;q=0.2'
+    'HTTP_COOKIE' => '_csrf=f06884cdb0da7e9460d0ad26b868326937a0038547761e1ba9caf4971891ad9es%3A32%3A%223ke7gsBdtnxPluMeE9uj3ir-ka-h3l-W%22%3B; PHPSESSID=0ojs9q3cbtnl2jgct46ectvu42'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at admin.priemnaya.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'admin.priemnaya.com'
+    'SERVER_ADDR' => '192.168.1.102'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.104'
+    'DOCUMENT_ROOT' => '/var/www/priemnaya/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/priemnaya/backend/web/'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/priemnaya/backend/web/index.php'
+    'REMOTE_PORT' => '54073'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424085748.284
+    'REQUEST_TIME' => 1424085748
+]
+2015-02-16 11:22:28 [192.168.1.104][-][-][warning][yii\gii\Module::checkAccess] Access to Gii is denied due to IP address restriction. The requested IP is 192.168.1.104
+2015-02-16 11:22:28 [192.168.1.104][-][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to access this page.' in /var/www/priemnaya/vendor/yiisoft/yii2-gii/Module.php:112
+Stack trace:
+#0 /var/www/priemnaya/vendor/yiisoft/yii2/base/Controller.php(139): yii\gii\Module->beforeAction(Object(yii\base\InlineAction))
+#1 /var/www/priemnaya/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#2 /var/www/priemnaya/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('gii', Array)
+#3 /var/www/priemnaya/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /var/www/priemnaya/backend/web/index.php(18): yii\base\Application->run()
+#5 {main}
+2015-02-16 11:22:28 [192.168.1.104][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.104
+    in /var/www/priemnaya/backend/views/layouts/main.php:68
+2015-02-16 11:22:28 [192.168.1.104][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f06884cdb0da7e9460d0ad26b868326937a0038547761e1ba9caf4971891ad9es:32:\"3ke7gsBdtnxPluMeE9uj3ir-ka-h3l-W\";'
+    'PHPSESSID' => '0ojs9q3cbtnl2jgct46ectvu42'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'admin.priemnaya.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,de;q=0.2,ro;q=0.2'
+    'HTTP_COOKIE' => '_csrf=f06884cdb0da7e9460d0ad26b868326937a0038547761e1ba9caf4971891ad9es%3A32%3A%223ke7gsBdtnxPluMeE9uj3ir-ka-h3l-W%22%3B; PHPSESSID=0ojs9q3cbtnl2jgct46ectvu42'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at admin.priemnaya.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'admin.priemnaya.com'
+    'SERVER_ADDR' => '192.168.1.102'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.104'
+    'DOCUMENT_ROOT' => '/var/www/priemnaya/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/priemnaya/backend/web/'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/priemnaya/backend/web/index.php'
+    'REMOTE_PORT' => '54075'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424085748.74
+    'REQUEST_TIME' => 1424085748
+]
+2015-02-16 11:22:28 [192.168.1.104][-][-][warning][yii\gii\Module::checkAccess] Access to Gii is denied due to IP address restriction. The requested IP is 192.168.1.104
+2015-02-16 11:22:28 [192.168.1.104][-][-][error][yii\web\HttpException:403] exception 'yii\web\ForbiddenHttpException' with message 'You are not allowed to access this page.' in /var/www/priemnaya/vendor/yiisoft/yii2-gii/Module.php:112
+Stack trace:
+#0 /var/www/priemnaya/vendor/yiisoft/yii2/base/Controller.php(139): yii\gii\Module->beforeAction(Object(yii\base\InlineAction))
+#1 /var/www/priemnaya/vendor/yiisoft/yii2/base/Module.php(455): yii\base\Controller->runAction('', Array)
+#2 /var/www/priemnaya/vendor/yiisoft/yii2/web/Application.php(83): yii\base\Module->runAction('gii', Array)
+#3 /var/www/priemnaya/vendor/yiisoft/yii2/base/Application.php(375): yii\web\Application->handleRequest(Object(yii\web\Request))
+#4 /var/www/priemnaya/backend/web/index.php(18): yii\base\Application->run()
+#5 {main}
+2015-02-16 11:22:28 [192.168.1.104][-][-][warning][yii\debug\Module::checkAccess] Access to debugger is denied due to IP address restriction. The requesting IP address is 192.168.1.104
+    in /var/www/priemnaya/backend/views/layouts/main.php:68
+2015-02-16 11:22:28 [192.168.1.104][-][-][info][application] $_GET = [
+    'r' => 'gii'
+]
+
+$_COOKIE = [
+    '_csrf' => 'f06884cdb0da7e9460d0ad26b868326937a0038547761e1ba9caf4971891ad9es:32:\"3ke7gsBdtnxPluMeE9uj3ir-ka-h3l-W\";'
+    'PHPSESSID' => '0ojs9q3cbtnl2jgct46ectvu42'
+]
+
+$_SESSION = [
+    '__flash' => []
+    '__returnUrl' => '/index.php'
+]
+
+$_SERVER = [
+    'HTTP_HOST' => 'admin.priemnaya.com'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/40.0.2214.111 Safari/537.36'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, sdch'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.8,en-US;q=0.6,en;q=0.4,de;q=0.2,ro;q=0.2'
+    'HTTP_COOKIE' => '_csrf=f06884cdb0da7e9460d0ad26b868326937a0038547761e1ba9caf4971891ad9es%3A32%3A%223ke7gsBdtnxPluMeE9uj3ir-ka-h3l-W%22%3B; PHPSESSID=0ojs9q3cbtnl2jgct46ectvu42'
+    'PATH' => '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'
+    'SERVER_SIGNATURE' => '<address>Apache/2.4.7 (Ubuntu) Server at admin.priemnaya.com Port 80</address>
+'
+    'SERVER_SOFTWARE' => 'Apache/2.4.7 (Ubuntu)'
+    'SERVER_NAME' => 'admin.priemnaya.com'
+    'SERVER_ADDR' => '192.168.1.102'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '192.168.1.104'
+    'DOCUMENT_ROOT' => '/var/www/priemnaya/backend/web/'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => '/var/www/priemnaya/backend/web/'
+    'SERVER_ADMIN' => 'webmaster@localhost'
+    'SCRIPT_FILENAME' => '/var/www/priemnaya/backend/web/index.php'
+    'REMOTE_PORT' => '54072'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => 'r=gii'
+    'REQUEST_URI' => '/index.php?r=gii'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1424085748.958
+    'REQUEST_TIME' => 1424085748
+]

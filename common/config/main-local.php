@@ -1,4 +1,5 @@
 <?php
+
 return [
     'components' => [
         'db' => [
@@ -16,5 +17,5 @@ return [
             // for the mailer to send real emails.
             'useFileTransport' => true,
         ],
-    ],
+    ]
 ];
