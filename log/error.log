@@ -1,0 +1,2 @@
+[Mon Feb 16 12:50:58.135560 2015] [:error] [pid 2381] [client 192.168.1.104:53673] script '/var/www/priemnaya/init.php' not found or unable to stat
+[Mon Feb 16 12:57:42.108071 2015] [:error] [pid 2586] [client 192.168.1.104:53714] PHP Fatal error:  Class 'frontend\\assets\\AppAsset' not found in /var/www/priemnaya/frontend/views/layouts/main.php on line 12
